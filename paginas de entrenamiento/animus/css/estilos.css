@@ -1,0 +1,76 @@
+p{
+ font-size: 11pt;
+ font-family: Times New Roman,Calibri;
+ font-weight: normal;
+}
+
+h1{
+ font-size: 32 pt;
+ font-family: Segoe Script;
+ font-weight: normal;
+ color: #753429;
+ text-align: center;
+}
+
+h2{
+ font-size: 20pt;
+ font-family: MV Boli;
+ font-weight: normal;
+ color:#000000;
+ text-align: center;
+}
+
+body{
+ background-color: #159267;
+  font-family: Fixedsys;
+  font-size: 18pt;
+  color: Blue;
+}
+
+h3{
+ font-size: 15pt;
+ font-family: Impact;
+}
+
+/*aqui vamos a poner el pishi menu alv :v */
+.pers{
+ height: 22px;
+ align-items: center;
+ padding: 15px;
+}
+
+.pers ul{
+ width: 100%;
+}
+
+.pers li{
+ float: left;
+ list-style-type: none;
+ display: inline-block;
+}
+.pers a{
+ font-family: Arial;
+ margin: 0 2px;
+ width: 120px;
+ height: 60px;
+ display:block;
+ text-align: center ;
+ /*border: 1px solid gray;*/
+ text-decoration: none;
+ color:#000;
+/* background-color: #fff;*/
+}
+
+.pers a:visited{
+ color: rgb(204,102,204);
+ background-color: rgb(221,221,221);
+}
+
+.pers a:hover{
+ background-color: rgb(204,050,156);
+}
+
+.pers a:active{
+ background-color: gray;
+ color:#fff;
+}
